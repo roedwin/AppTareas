@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "470028643955",
+    "project_id": "parciallistatareas",
+    "storage_bucket": "parciallistatareas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470028643955:android:681d9268c2207e430e8406",
+        "android_client_info": {
+          "package_name": "com.example.apptareas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470028643955-ccfra1flarqroefbap4h8j4m0rcc0o0h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apptareas",
+            "certificate_hash": "6e244502be379ded012c1dd49090419a08711110"
+          }
+        },
+        {
+          "client_id": "470028643955-q5hu8c5u1lsc4dndcd7neh113mst6p9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCICCFCpdHCTVLgtPbjewKkSkDlaWaMhl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470028643955-q5hu8c5u1lsc4dndcd7neh113mst6p9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

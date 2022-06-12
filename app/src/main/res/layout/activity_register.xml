@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_design"
+    tools:context=".Register">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/registerBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/gt"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/etRegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1BA3B3"
+        android:textColorHint="#1BA3B3"
+        android:inputType="text"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/etRegisterCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar correo electronico"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1BA3B3"
+        android:textColorHint="#1BA3B3"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/correo"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar contraseña"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#1BA3B3"
+        android:textColorHint="#1BA3B3"
+        android:inputType="textPassword"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/candado"
+        android:drawablePadding="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:background="@drawable/inputs"
+        android:backgroundTint="#fff"/>
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="¿Ya tienes una cuenta? Inicia Sesion"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
